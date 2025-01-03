@@ -14,17 +14,17 @@ adminRouter.post("/signin", (req, res) => {
 		message: "signup endpoint",
 	});
 });
-adminRouter.post("/course", (req, res) => {
+adminRouter.post("/", (req, res) => {
 	res.json({
 		message: "course preview endpoint",
 	});
 });
-adminRouter.put("/course", (req, res) => {
+adminRouter.put("/", (req, res) => {
 	res.json({
 		message: "course preview endpoint",
 	});
 });
-adminRouter.get("/course/bulk", (req, res) => {
+adminRouter.get("//bulk", (req, res) => {
 	res.json({
 		message: "course preview endpoint",
 	});
